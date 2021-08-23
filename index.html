@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<script type="module">
+import { fetchImagesGood } from "./Pixabay.js";
+
+onload = async () => {
+  const imgs = await fetchImagesGood(); // not support CORS
+  for (const img of images) {
+    const c = new Image();
+    c.src = img.previewURL;
+    document.body.appendChild(c);
+  }
+}
+</script>
