@@ -1,9 +1,6 @@
 # PixabayAPI
 
-Pixabayの画像を検索・ダウンロードできるツールです。
-
-## デモ
-[使用例](https://code4fukui.github.io/PixabayAPI/)
+Pixabayの画像を検索・ダウンロードするツールです。
 
 ## 機能
 - キーワード検索
