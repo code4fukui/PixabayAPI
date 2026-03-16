@@ -29,4 +29,4 @@ Use the [Pixabay](https://pixabay.com/) API to search and download images.
 This project uses the [Pixabay API](https://pixabay.com/api/docs/) to search for and download images.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+MIT License — see [LICENSE](LICENSE).
